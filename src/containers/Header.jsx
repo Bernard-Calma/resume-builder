@@ -16,7 +16,11 @@ const Styles = {
     container: {
         display: "flex",
         justifyContent: "space-between",
-        marginLeft: 20,
-        marginRight: 20
+        paddingLeft: 20,
+        paddingRight: 20,
+        marginBottom: 20,
+        alignText: "center",
+        backgroundColor: "gray",
+        boxShadow: "3px 3px 5px 5px "
     }
 }
