@@ -39,8 +39,9 @@
 
 
 /* FieldSet */
-form > fieldset > div > input {
+form > fieldset > fieldset > div > input {
   margin: 10px;
   border-radius: 10px;
   padding-left: 5px;
+  font-size: 2.5vw;
 }
