@@ -1,11 +1,17 @@
+import NavBar from "../components/NavBar"
+
 const Header = () =>{
 
     return(
-        <div style={Styles.container}>
-            <h3>=</h3>
-            <h1>Resume Builder</h1>
-            <h3>Login</h3>
+        <div>
+            <div style={Styles.container}>
+                <h3>=</h3>
+                <h1>Resume Builder</h1>
+                <h3>Login</h3>
+            </div>
+            <NavBar />
         </div>
+
     )
 }
 

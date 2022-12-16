@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 const LandingPage = () => {
     return(
         <div style={Styles.container}>
-            <NavLink to = "ContactInfo">Start Building</NavLink>
+        
         </div>
     )
 }
