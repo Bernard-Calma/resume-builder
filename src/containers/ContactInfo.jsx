@@ -1,9 +1,13 @@
-const PersonalInfo = () => {
+const ContactInfo = () => {
     return(
         <div style={Styles.container}>
             <form>
                 <fieldset>
-                    <legend>Personal Information</legend>
+                    <legend>Contact Information</legend>
+                    <div style = {Styles.fieldSet}>
+                        <input type="text" name="firstName" placeholder="First Name"/>
+                        <input type="text" name="lastName" placeholder="Last Name"/>
+                    </div>
                     <div style = {Styles.fieldSet}>
                         <input type="text" name="firstName" placeholder="First Name"/>
                         <input type="text" name="lastName" placeholder="Last Name"/>
@@ -17,7 +21,7 @@ const PersonalInfo = () => {
     )
 }
 
-export default PersonalInfo
+export default ContactInfo
 
 const Styles = {
     container: {
