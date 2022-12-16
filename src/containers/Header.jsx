@@ -21,6 +21,6 @@ const Styles = {
         marginBottom: 20,
         alignText: "center",
         backgroundColor: "gray",
-        boxShadow: "3px 3px 5px 5px "
+        boxShadow: "3px 3px 5px 5px",
     }
 }

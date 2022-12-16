@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* FieldSet */
+form > fieldset > div > input {
+  margin: 10px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
