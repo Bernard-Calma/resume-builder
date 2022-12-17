@@ -1,39 +1,26 @@
 const ContactInfo = () => {
     return(
         <div style={Styles.container}>
+            <h1>Contact Information</h1>
             <form style ={ Styles.form }>
-                <fieldset>
-                    <legend>Contact Information</legend>
 
-                    <fieldset>
-                        <legend>Full Name</legend>
-                        <div style = {Styles.name}>
-                            <input type="text" name="firstName" placeholder="First Name"/>
-                            <input type="text" name="lastName" placeholder="Last Name"/>
-                        </div>
-                    </fieldset>
-                    
-                    <fieldset>
-                        <legend>Address</legend>
                         <div style = {Styles.fieldSet}>
-                            <input type="text" name="address" placeholder="Address"/>
-                            <input type="text" name="city" placeholder="City"/>
-                            <input type="text" name="state" placeholder="State"/>
-                            <input type="text" name="zipCode" placeholder="Zip Code"/>
+                            <input type="text" name="firstName" id = "inputFirstName" placeholder="First Name"/>
+                            <input type="text" name="lastName" id = "inputLastName" placeholder="Last Name"/>
                         </div>
-                    </fieldset>
-                    
-                    <fieldset>
-                        <legend>Contact Details</legend>
                         <div style = {Styles.fieldSet}>
-                            <input type="text" name="phoneNumber" placeholder="Phone Number"/>
-                            <input type="text" name="email" placeholder="Email Address"/>
+                            <input type="text" name="address" id = "inputAddress" placeholder="Address"/>
                         </div>
-                    </fieldset>
-                    
+                        <div>
+                            <input type="text" name="city" id = "inputCity" placeholder="City"/>
+                            <input type="text" name="state" id = "inputState" placeholder="State" maxLength = "2"/>
+                            <input type="text" name="zipCode" id = "inputZipCode" placeholder="Zip Code" maxLength = "5"/>
+                        </div>
 
-                </fieldset>
-                
+                        <div style = {Styles.fieldSet}>
+                            <input type="text" name="phoneNumber" id = "inputPhoneNumber"placeholder="Phone Number"/>
+                            <input type="text" name="email" id = "inputEmail" placeholder="Email Address"/>
+                        </div>
             </form>
         </div>
     )
@@ -51,13 +38,10 @@ const Styles = {
     },
     fieldSet: {
         display: "flex",
-        flexDirection: "column"
+        flexDirection: "row",
+        width: "95%"
     }, 
     form: {
-        width: "80%"
+        width: "60%"
     },
-    name: {
-        diplay: "flex",
-        
-    }
 }

@@ -4,7 +4,7 @@ const NavBar = () => {
 
     return(
         <div style={Styles.container}>
-            <NavLink to = "ContactInfo">Start Building</NavLink>
+            <NavLink to = "ContactInfo">Contact Information</NavLink>
             <h4>Eudcation</h4>
             <h4>Work Experience</h4>
             <h4>Skills</h4>

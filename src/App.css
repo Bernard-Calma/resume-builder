@@ -38,10 +38,41 @@
 }
 
 
-/* FieldSet */
-form > fieldset > fieldset > div > input {
+/* Contact Information Form */
+form > div > input {
   margin: 10px;
   border-radius: 10px;
   padding-left: 5px;
   font-size: 2.5vw;
+  background-color: rgb(220, 220, 220);
+}
+
+
+
+input:focus {
+  outline: none;
+  box-shadow: 1px 1px 1px 3px black;
+}
+
+input::placeholder {
+  font-size: 2vw;
+}
+
+#inputFirstName, #inputLastName, #inputPhoneNumber, #inputEmail {
+  width: 50%;
+}
+
+#inputAddress {
+  width: 100%;
+}
+#inputCity {
+  width: 40%;
+}
+
+#inputState {
+  width: 20%
+}
+
+#inputZipCode {
+  width: 23.5%
 }
